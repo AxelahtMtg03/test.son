@@ -1,0 +1,40 @@
+* {
+    transition: 1s;
+    font-family: 'Lobster', cursive;
+}
+
+body.no-js {
+    color: wheat;
+    background-color: black;
+}
+
+body.js {
+    color: darkblue;
+    background-color: white;
+}
+
+.hero {
+    padding: 3em;
+    text-align: center;
+    background-color: black;
+}
+
+.proto {
+    cursor: pointer;
+    border: none;
+    margin: 1em;
+    padding: 1em ;
+    display: inline-block;
+    box-shadow: 0 0 5px cyan, 0 0 5px inset black;
+    line-height: 2em;
+    border-radius: 1em;
+    text-decoration: none;
+    background-color: pink;
+}
+
+.proto:hover,
+.proto:focus {
+    outline: 10px solid green;
+    box-shadow: 0 0 pink;
+    text-shadow: 3px 3px 3px white;
+}
